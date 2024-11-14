@@ -1,0 +1,488 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: var(--primary-color); /* Green */
+    position: fixed;
+    top: 0;
+    width: 100%; /* Ensures full width */
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px; /* Height of the navbar */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Evenly distribute the links */
+    align-items: center; /* Vertically center the links */
+    height: 100%; /* Take full height of nav */
+    width: 100%; /* Ensures the ul takes full width of nav */
+}
+
+nav ul li {
+    padding: 0 20px; /* Adjust horizontal padding for spacing */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px; /* Font size for the links */
+    padding: 15px 25px; /* Padding for the clickable area */
+    display: block;
+    font-weight: bold; /* Optional: Bold text */
+    text-align: center; /* Center-align text inside the links */
+}
+
+nav ul li a:hover {
+    background-color: var(--highlight-color); /* Blue */
+    border-radius: 5px;
+}
+
+
+
+
+main {
+    padding: 20px;
+}
+
+/* E-Waste Awareness Section Styling */
+#awareness {
+    background-color: #f1f1f1;
+    padding: 40px;
+    margin-top: 60px;
+}
+
+#awareness h1 {
+    text-align: center;
+    color: #2e7d32;
+    font-size: 32px;
+}
+
+.awareness-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.awareness-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+    width: 60%;
+}
+
+.image {
+    width: 35%;
+}
+
+.awareness-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.awareness-item h2 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.awareness-item p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Collection Centers Section */
+#result {
+    margin-top: 40px;
+}
+
+.center-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.center-info img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.center-info h4 {
+    color: #333;
+    font-size: 20px;
+}
+
+.center-info p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Locator Section Styling */
+section {
+    margin-top: 40px;
+}
+
+label, select, input, button {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+select, input {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+/* FAQ Section */
+#faq {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-item h3 {
+    color: #2e7d32;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Disposal Methods Section */
+#disposal-methods {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.disposal-item {
+    margin-bottom: 15px;
+}
+
+.disposal-item h3 {
+    color: #2e7d32;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.disposal-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Help Section */
+#help {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.help-item {
+    margin-bottom: 15px;
+}
+
+.help-item h3 {
+    color: #2e7d32;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.help-item p {
+    font-size: 16px;
+    color: #555;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header {
+        padding: 60px 20px 20px; /* Less top padding on small screens */
+    }
+
+    .awareness-content, .disposal-item, .help-item {
+        flex-direction: column;
+    }
+
+    .center-info {
+        width: 100%; /* Ensure center information takes full width */
+    }
+    
+    .center-info img {
+        width: 80%; /* Smaller images on mobile */
+    }
+}
+/* Updated Color Scheme */
+:root {
+    --primary-color: #4CAF50;  /* Green */
+    --secondary-color: #FF9800;  /* Orange */
+    --highlight-color: #2196F3;  /* Blue */
+    --light-background: #f1f1f1;
+    --light-border: #ddd;
+    --dark-text: #333;
+    --light-text: #555;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-background);
+    color: var(--dark-text);
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: var(--primary-color); /* Green */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px; /* Increase the height of the navbar */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center; /* Vertically align the links */
+}
+
+nav ul li {
+    padding: 15px 30px; /* Increase padding to make items larger */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px; /* Increase the font size */
+    padding: 15px 25px; /* Increase padding for larger clickable area */
+    display: block;
+    font-weight: bold; /* Optional: Makes the text bolder */
+}
+
+nav ul li a:hover {
+    background-color: var(--highlight-color); /* Blue */
+    border-radius: 5px;
+}
+
+
+/* Main Header */
+header {
+    background-color: var(--primary-color); /* Green */
+    color: white;
+    text-align: center;
+    padding: 80px 20px 20px;
+    margin-top: 50px;
+}
+
+/* E-Waste Awareness Section Styling */
+#awareness {
+    background-color: var(--light-background);
+    padding: 40px;
+    margin-top: 60px;
+}
+
+#awareness h1 {
+    text-align: center;
+    color: var(--primary-color);  /* Green */
+    font-size: 32px;
+}
+
+.awareness-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid var(--light-border);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.awareness-item h2 {
+    color: var(--highlight-color); /* Blue */
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.awareness-item p {
+    color: var(--light-text);
+    font-size: 16px;
+}
+
+/* Collection Centers Section */
+.center-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--light-border);
+    width: 100%;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.center-info h4 {
+    color: var(--highlight-color); /* Blue */
+    font-size: 20px;
+}
+
+.center-info p {
+    color: var(--light-text);
+    font-size: 16px;
+}
+
+.center-info img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Locator Section Styling */
+button {
+    background-color: var(--primary-color); /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--secondary-color); /* Orange */
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--primary-color); /* Green */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* FAQ Section */
+#faq {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--light-border);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    color: var(--primary-color); /* Green */
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Disposal Methods Section */
+#disposal-methods {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--light-border);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.disposal-item h3 {
+    color: var(--highlight-color); /* Blue */
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Help Section */
+#help {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--light-border);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.help-item h3 {
+    color: var(--primary-color); /* Green */
+    font-size: 22px;
+    margin-bottom: 10px;
+}
